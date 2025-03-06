@@ -1,0 +1,26 @@
+.failure-view {
+  text-align: center;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.failure-view h2 {
+  font-size: 24px;
+}
+
+.failure-view button {
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
